@@ -1,0 +1,6 @@
+size (300,300);
+noStroke();
+fill(251, 251, 51);
+arc(150, 150, 150, 150, QUARTER_PI, PI+HALF_PI+QUARTER_PI,PIE);
+fill(0, 0, 0);
+ellipse(150, 100, 25, 25);
