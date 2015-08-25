@@ -1,0 +1,22 @@
+float px=3;
+float vx=5;
+int dx=1;
+
+float py=10;
+float vy=5;
+int dy=1;
+
+
+void setup(){
+  size(500,500);
+}
+
+void draw() {
+  fill(vy);
+  px=px+(vx*dx);
+  py=py+(vy*dy);
+  vy=vy+1;
+  rect(px,py,100,100);
+  if(px>400||px<0){dx=dx*-1;}
+  if(py>400||py<0){dy=dy*-1;}
+}
