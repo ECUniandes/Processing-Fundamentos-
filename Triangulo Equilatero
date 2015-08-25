@@ -1,0 +1,10 @@
+// triangulo equilatero
+// 
+size (300,300);
+
+//Base
+line(50, 200, 150, 200);
+noFill();
+ellipse(50,200,200,200);
+ellipse(150,200,200,200);
+triangle(50,200,150,200,100,115);
