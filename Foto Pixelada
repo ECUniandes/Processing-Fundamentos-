@@ -1,0 +1,477 @@
+int A = 20;
+int B = 40;
+int C = 60;
+int D = 80;
+int E = 100;
+int F = 120;
+int G = 140;
+int H = 160;
+int I = 180;
+int J = 200;
+int K = 220;
+int L = 240;
+int M = 260;
+int N = 280;
+int O = 300;
+int P = 320;
+int Q = 340;
+int R = 360;
+int S = 380;
+int T = 400;
+int U = 420;
+int V = 440;
+int W = 460;
+int X = 480;
+int Y = 500;
+int z = 0;
+
+void setup(){
+size (500,500);
+noStroke();
+fill(#c2c3b7);
+//linea 1-A
+quad(0,0, A,0, A,A ,0,A);
+quad(A,0, B,0, B,A ,A,A);
+quad(B,0, C,0, C,A, B,A);
+quad(C,0, D,0, D,A, C,A);
+quad(D,0, E,0, E,A, D,A);
+quad(E,0, F,0, F,A, E,A);
+quad(F,0, G,0, G,A, F,A);
+quad(G,0, H,0, H,A, G,A);
+quad(H,0, I,0, I,A, H,A);
+quad(I,0, J,0, J,A, I,A);
+quad(J,0, K,0, K,A, J,A);
+quad(K,0, L,0, L,A, K,A);
+quad(L,0, M,0, M,A, L,A);
+quad(M,0, N,0, N,A, M,A);
+quad(N,0, O,0, O,A, N,A);
+fill(#2e4150);
+quad(O,0, P,0, P,A, O,A);
+quad(P,0, Q,0, Q,A, P,A);
+fill(#c2c3b7);
+quad(Q,0, R,0, R,A, Q,A);
+quad(R,0, S,0, S,A, R,A);
+quad(S,0, T,0, T,A, S,A);
+quad(T,0, U,0, U,A, T,A);
+quad(U,0, V,0, V,A, U,A);
+quad(V,0, W,0, W,A, V,A);
+quad(W,0, X,0, X,A, W,A);
+quad(X,0, Y,0, Y,A, X,A);
+//LINEA 2-B
+quad(0,A, A,A, A,B, 0,B);
+quad(A,A, B,A, B,B ,A,B);
+quad(B,A, C,A, C,B, B,B);
+quad(C,A, D,A, D,B, C,B);
+quad(D,A, E,A, E,B, D,B);
+quad(E,A, F,A, F,B, E,B);
+quad(F,A, G,A, G,B, F,B);
+quad(G,A, H,A, H,B, G,B);
+quad(H,A, I,A, I,B, H,B);
+quad(I,A, J,A, J,B, I,B);
+quad(J,A, K,A, K,B, J,B);
+fill(#2e4150);
+quad(K,A, L,A, L,B, K,B);
+quad(L,A, M,A, M,B, L,B);
+quad(M,A, N,A, N,B, M,B);
+quad(N,A, O,A, O,B, N,B);
+quad(O,A, P,A, P,B, O,B);
+quad(P,A, Q,A, Q,B, P,B);
+quad(Q,A, R,A, R,B, Q,B);
+fill(#c2c3b7);
+quad(R,A, S,A, S,B, R,B);
+quad(S,A, T,A, T,B, S,B);
+quad(T,A, U,A, U,B, T,B);
+quad(U,A, V,A, V,B, U,B);
+quad(V,A, W,A, W,B, V,B);
+quad(W,A, X,A, X,B, W,B);
+quad(X,A, Y,A, Y,B, X,B);
+//LINEA 3-C
+quad(0,B, A,B, A,C, 0,C);
+quad(A,B, B,B, B,C ,A,C);
+quad(B,B, C,B, C,C, B,C);
+quad(C,B, D,B, D,C, C,C);
+quad(D,B, E,B, E,C, D,C);
+quad(E,B, F,B, F,C, E,C);
+quad(F,B, G,B, G,C, F,C);
+quad(G,B, H,B, H,C, G,C);
+quad(H,B, I,B, I,C, H,C);
+fill(#2e4150);
+quad(I,B, J,B, J,C, I,C);
+quad(J,B, K,B, K,C, J,C);
+quad(K,B, L,B, L,C, K,C);
+quad(L,B, M,B, M,C, L,C);
+quad(M,B, N,B, N,C, M,C);
+quad(N,B, O,B, O,C, N,C);
+quad(O,B, P,B, P,C, O,C);
+quad(P,B, Q,B, Q,C, P,C);
+quad(Q,B, R,B, R,C, Q,C);
+fill(#c2c3b7);
+quad(R,B, S,B, S,C, R,C);
+quad(S,B, T,B, T,C, S,C);
+quad(T,B, U,B, U,C, T,C);
+quad(U,B, V,B, V,C, U,C);
+quad(V,B, W,B, W,C, V,C);
+quad(W,B, X,B, X,C, W,C);
+quad(X,B, Y,B, Y,C, X,C);
+//LINEA 4-D
+quad(0,C, A,C, A,D, 0,D);
+quad(A,C, B,C, B,D ,A,D);
+quad(B,C, C,C, C,D, B,D);
+quad(C,C, D,C, D,D, C,D);
+quad(D,C, E,C, E,D, D,D);
+quad(E,C, F,C, F,D, E,D);
+quad(F,C, G,C, G,D, F,D);
+quad(G,C, H,C, H,D, G,D);
+fill(#2e4150);
+quad(H,C, I,C, I,D, H,D);
+quad(I,C, J,C, J,D, I,D);
+quad(J,C, K,C, K,D, J,D);
+quad(K,C, L,C, L,D, K,D);
+quad(L,C, M,C, M,D, L,D);
+quad(M,C, N,C, N,D, M,D);
+quad(N,C, O,C, O,D, N,D);
+quad(O,C, P,C, P,D, O,D);
+quad(P,C, Q,C, Q,D, P,D);
+quad(Q,C, R,C, R,D, Q,D);
+quad(R,C, S,C, S,D, R,D);
+fill(#c2c3b7);
+quad(S,C, T,C, T,D, S,D);
+quad(T,C, U,C, U,D, T,D);
+quad(U,C, V,C, V,D, U,D);
+quad(V,C, W,C, W,D, V,D);
+quad(W,C, X,C, X,D, W,D);
+quad(X,C, Y,C, Y,D, X,D);
+};
+
+// muy complicado uno por uno hago un programa que me ayude a dibujar los cuadros y me concentro en el relleno
+
+
+void draw(){
+  
+//LINEA 5-E
+ fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),D, A+(20*z),D, A+(20*z),E, 0+(20*z),E);
+  if (z >= 6) {fill(#2e4150);}
+  if (z >= 10) {fill(#cfaaa1);}
+  if (z >= 13) {fill(#c3907d);}
+  if (z >= 14) {fill(#7a5c51);}
+  if (z >= 15) {fill(#2e4150);}
+  if (z > 18) {fill(#c2c3b7);}
+ }
+ // z comineza en 0 por lo que los valores en x se corren una posición hacia la izquierda
+
+//LINEA 6-F
+  fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),E, A+(20*z),E, A+(20*z),F, 0+(20*z),F);
+  if (z >= 6) {fill(#2e4150);}
+  if (z >= 9) {fill(#cfaaa1);}
+  if (z >= 13) {fill(#c3907d);}
+  if (z >= 14) {fill(#7a5c51);}
+  if (z >= 17) {fill(#2e4150);}
+  if (z >= 19) {fill(#c2c3b7);}
+ }
+ 
+ 
+ 
+//LINEA 7-G
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),F, A+(20*z),F, A+(20*z),G, 0+(20*z),G);
+  if (z >= 5) {fill(#2e4150);}
+  if (z >= 8) {fill(#cfaaa1);}
+  if (z >= 13) {fill(#c3907d);}
+  if (z >= 16) {fill(#7a5c51);}
+  if (z > 17) {fill(#2e4150);}
+  if (z > 19) {fill(#c2c3b7);}
+ }
+ 
+ //LINEA 8-H
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),G, A+(20*z),G, A+(20*z),H, 0+(20*z),H);
+  if (z >= 5) {fill(#2e4150);}
+  if (z >= 7) {fill(#cfaaa1);}
+  if (z >= 9) {fill(#998283);}
+  if (z >= 12) {fill(#cfaaa1);}
+  if (z >= 13) {fill(#c3907d);}
+  if (z >= 16) {fill(#7a5c51);}
+  if (z >= 17) {fill(#463635);}
+  if (z > 18) {fill(#2e4150);}
+  if (z > 19) {fill(#c2c3b7);}
+ }
+ 
+  //LINEA 9-I
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),H, A+(20*z),H, A+(20*z),I, 0+(20*z),I);
+  if (z >= 5) {fill(#2e4150);}
+  if (z >= 7) {fill(#cfaaa1);}
+  if (z >= 12) {fill(#998283);}
+  if (z >= 13) {fill(#cfaaa1);}
+  if (z >= 14) {fill(#a97b6d);}
+  if (z >= 17) {fill(#463635);}
+  if (z >= 18) {fill(#2e4150);}
+  if (z >= 19) {fill(#c2c3b7);}
+ }
+
+  //LINEA 10-j
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),I, A+(20*z),I, A+(20*z),J, 0+(20*z),J);
+  if (z >= 5) {fill(#b38780);}
+  if (z >= 6) {fill(#67484f);}
+  if (z >= 7) {fill(#e1bcb2);}// piel que Brilla
+  if (z >= 10) {fill(#816761);}
+  if (z >= 11) {fill(#3d2c25);}
+  if (z >= 12) {fill(#78574b);}
+  if (z >= 13) {fill(#d5aca6);}
+  if (z >= 14) {fill(#6a4d41);}
+  if (z >= 15) {fill(#785a52);}
+  if (z >= 18) {fill(#2e4150);}
+  if (z >= 19) {fill(#c2c3b7);}
+ }
+ 
+   //LINEA 11-K
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),J, A+(20*z),J, A+(20*z),K, 0+(20*z),K);
+  if (z >= 5) {fill(#c89690);}
+  if (z >= 6) {fill(#caaa9a);}
+  if (z >= 8) {fill(#e1bcb2);}
+  if (z >= 11) {fill(#8c6864);}
+  if (z >= 12) {fill(#976c6b);}
+  if (z >= 13) {fill(#dcb4ab);}
+  if (z >= 14) {fill(#9f725f);}
+  if (z >= 15) {fill(#4a3c2f);}
+  if (z >= 17) {fill(#715d52);}
+  if (z >= 18) {fill(#262318);}
+  if (z >= 19) {fill(#c2c3b7);}
+ }
+ 
+    //LINEA 12-L
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),K, A+(20*z),K, A+(20*z),L, 0+(20*z),L);
+ if (z >= 5) {fill(#dbb7ab);}
+  if (z >= 6) {fill(#d3ada2);}
+  if (z >= 7) {fill(#dcb4a6);}
+  if (z >= 8) {fill(#ebc4bf);}
+  if (z >= 9) {fill(#e8c3c2);}
+  if (z >= 10) {fill(#d7a8a2);}
+  if (z >= 11) {fill(#c8988f);}
+  if (z >= 12) {fill(#e8bab0);}
+  if (z >= 13) {fill(#e7b9a8);}
+  if (z >= 14) {fill(#e7b9a8);}
+  if (z >= 15) {fill(#473322);}
+  if (z >= 16) {fill(#452f2b);}
+  if (z >= 17) {fill(#2d271b);}
+  if (z >= 18) {fill(#2e4150);}
+  if (z >= 19) {fill(#c2c3b7);}
+ }
+ 
+    //LINEA 13-M
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),L, A+(20*z),L, A+(20*z),M, 0+(20*z),M);
+  if (z >= 5) {fill(#402825);}//6
+  if (z >= 6) {fill(#d6aaa2);}//7
+  if (z >= 7) {fill(#e5bcb3);}//8
+  if (z >= 8) {fill(#e5bcb3);}//9
+  if (z >= 9) {fill(#e2c2bc);}//10
+  if (z >= 10) {fill(#e2c2bc);}//11
+  if (z >= 11) {fill(#efc1c1);}//12
+  if (z >= 12) {fill(#b07f73);}//13
+  if (z >= 13) {fill(#e8c1b7);}//14
+  if (z >= 14) {fill(#603e32);}//15
+  if (z >= 15) {fill(#5d352b);}//16
+  if (z >= 16) {fill(#6b4e3e);}//17
+  if (z >= 17) {fill(#322817);}//18
+  if (z >= 18) {fill(#c2c3b7);}//19
+ }
+ 
+    //LINEA 14-N
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),M, A+(20*z),M, A+(20*z),N, 0+(20*z),N);
+  if (z >= 5) {fill(#b9998a);}//6
+  if (z >= 6) {fill(#d2afa7);}//7
+  if (z >= 7) {fill(#dfb8b4);}//8
+  if (z >= 8) {fill(#e2beb4);}//9
+  if (z >= 9) {fill(#dcbcb2);}//10
+  if (z >= 10) {fill(#c0978c);}//11
+  if (z >= 11) {fill(#d4aea9);}//12
+  if (z >= 12) {fill(#b58c88);}//13
+  if (z >= 13) {fill(#482a23);}//14
+  if (z >= 14) {fill(#4c3217);}//15
+  if (z >= 15) {fill(#5e342c);}//16
+  if (z >= 16) {fill(#644532);}//17
+  if (z >= 17) {fill(#c2c3b7);}//19
+ }
+ 
+    //LINEA 15-O
+fill(#c2c3b7);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),N, A+(20*z),N, A+(20*z),O, 0+(20*z),O);
+   if (z >= 4) {fill(#ad8d7c);}
+  if (z >= 5) {fill(#c49d8f);}//6
+  if (z >= 6) {fill(#ccac9a);}//7
+  if (z >= 7) {fill(#ccac9a);}//8
+  if (z >= 8) {fill(#ddbcb5);}//9
+  if (z >= 9) {fill(#a58873);}//10
+  if (z >= 10) {fill(#a58873);}//11
+  if (z >= 11) {fill(#a4756b);}//12
+  if (z >= 12) {fill(#a87b6b);}//13
+  if (z >= 13) {fill(#815d4e);}//14
+  if (z >= 14) {fill(#4f322a);}//15
+  if (z >= 15) {fill(#603425);}//16
+  if (z >= 16) {fill(#583723);}//17
+  if (z >= 17) {fill(#c2c3b7);}//18
+ }
+ 
+ 
+    //LINEA 16-P
+fill(#292d25);// cambio del fill inicial por la camiseta
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),O, A+(20*z),O, A+(20*z),P, 0+(20*z),P);
+  if (z >= 2) {fill(#967a69);}
+  if (z >= 3) {fill(#98745e);}
+  if (z >= 4) {fill(#b99b88);}
+  if (z >= 5) {fill(#c09e93);}
+  if (z >= 6) {fill(#b09383);}
+  if (z >= 7) {fill(#c5a195);}
+  if (z >= 8) {fill(#c09f95);}
+  if (z >= 9) {fill(#cda19d);}
+  if (z >= 10) {fill(#cba5a1);}
+  if (z >= 11) {fill(#bf807f);}
+  if (z >= 12) {fill(#9a5e67);}
+  if (z >= 13) {fill(#4c2826);}
+  if (z >= 14) {fill(#453023);}
+  if (z >= 15) {fill(#513426);}
+  if (z >= 16) {fill(#c2c3b7);}
+ }
+ 
+ 
+    //LINEA 17-Q
+fill(#292d25);// cambio del fill inicial por la camiseta
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),P, A+(20*z),P, A+(20*z),Q, 0+(20*z),Q);
+  if (z >= 3) {fill(#967a69);}
+  if (z >= 8) {fill(#9a7a6b);}
+  if (z >= 9) {fill(#d3a5a1);}
+  if (z >= 10) {fill(#c29a90);}
+  if (z >= 11) {fill(#9a7269);}
+  if (z >= 12) {fill(#6c4f3e);}
+  if (z >= 13) {fill(#452a20);}
+  if (z >= 14) {fill(#4f351d);}
+  if (z >= 15) {fill(#4b3125);}
+  if (z >= 16) {fill(#c2c3b7);}
+ }
+ 
+ 
+    //LINEA 18-R
+fill(#292d25);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),Q, A+(20*z),Q, A+(20*z),R, 0+(20*z),R);
+  if (z >= 4) {fill(#b28e6c);}
+  if (z >= 5) {fill(#a78773);}
+  if (z >= 7) {fill(#876a57);}
+  if (z >= 8) {fill(#947469);}
+  if (z >= 9) {fill(#aa8576);}
+  if (z >= 10) {fill(#b6927f);}
+  if (z >= 11) {fill(#9d766f);}
+  if (z >= 12) {fill(#64442f);}
+  if (z >= 13) {fill(#422925);}
+  if (z >= 14) {fill(#452d21);}
+  if (z >= 15) {fill(#c2c3b7);}
+ }
+ 
+    //LINEA 19-S
+fill(#292d25);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),R, A+(20*z),R, A+(20*z),S, 0+(20*z),S);
+  if (z >= 5) {fill(#b89280);}
+  if (z >= 6) {fill(#ae8976);}
+  if (z >= 7) {fill(#6f5241);}
+  if (z >= 8) {fill(#4c3626);}
+  if (z >= 9) {fill(#624c3d);}
+  if (z >= 10) {fill(#382c1f);}
+  if (z >= 11) {fill(#33251b);}
+  if (z >= 12) {fill(#402822);}
+  if (z >= 13) {fill(#3f2a20);}
+  if (z >= 14) {fill(#c2c3b7);}
+ }
+ 
+ 
+    //LINEA 20-T
+fill(#292d25);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),S, A+(20*z),S, A+(20*z),T, 0+(20*z),T);
+    if (z >= 5) {fill(#b08d79);}
+  if (z >= 6) {fill(#af8275);}
+  if (z >= 7) {fill(#83634a);}
+  if (z >= 8) {fill(#6c513b);}
+  if (z >= 9) {fill(#5a4238);}
+  if (z >= 10) {fill(#312318);}
+  if (z >= 11) {fill(#302119);}
+  if (z >= 12) {fill(#3e3726);}
+  if (z >= 13) {fill(#c2c3b7);}
+ }
+ 
+    //LINEA 21-U
+fill(#292d25);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),T, A+(20*z),T, A+(20*z),U, 0+(20*z),U);
+  if (z >= 6) {fill(#a17d6a);}
+  if (z >= 7) {fill(#765444);}
+  if (z >= 8) {fill(#664a39);}
+  if (z >= 9) {fill(#6b4e45);}
+  if (z >= 10) {fill(#392619);}
+  if (z >= 11) {fill(#302717);}
+  if (z >= 12) {fill(#c2c3b7);}
+ }
+ 
+    //LINEA 22-V
+fill(#292d25);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),U, A+(20*z),U, A+(20*z),V, 0+(20*z),V);
+
+  if (z >= 7) {fill(#715349);}
+  if (z >= 8) {fill(#634332);}
+  if (z >= 9) {fill(#5e4337);}
+  if (z >= 10) {fill(#513824);}
+  if (z >= 11) {fill(#342d1f);}
+  if (z >= 12) {fill(#c2c3b7);}
+ }
+ 
+    //LINEA 23-W
+fill(#292d25);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),V, A+(20*z),V, A+(20*z),W, 0+(20*z),W);
+  if (z >= 9) {fill(#715349);}
+  if (z >= 10) {fill(#513824);}
+  if (z >= 11) {fill(#39271d);}
+  if (z >= 12) {fill(#c2c3b7);}
+  
+ }
+ 
+    //LINEA 24-X
+fill(#292d25);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),W, A+(20*z),W, A+(20*z),X, 0+(20*z),X);
+   if (z >= 13) {fill(#c2c3b7);}
+ }
+ 
+    //LINEA 25-Y
+fill(#292d25);
+ for (z = 0; z < 25; z = z+1){
+  quad(0+(20*z),X, A+(20*z),X, A+(20*z),Y, 0+(20*z),Y);
+  if (z >= 14) {fill(#c2c3b7);}
+
+ }
+ 
+ 
+ 
+ 
+}
