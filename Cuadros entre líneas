@@ -1,0 +1,23 @@
+// Andres aca va el codigo para los cuadros entre las lineas
+void setup(){
+size (500,500);
+}
+
+void draw(){
+  
+  for (int linea=100;linea<410;linea=linea+10){
+   for (int cuadro=100; cuadro<400;cuadro=cuadro+10){
+    line(linea,0,linea,500);
+    line(0,linea,500,linea);
+    if(linea<400){rect(linea,cuadro,10,10);}
+  }
+    }
+  //para confirmar que las lineas esten bien trazadas se pueden hacer cuadrados para confirmar
+  //noStroke();fill(255, 0, 0);// relleno rojo para ver mejor
+  //rect(0,0,100,100);//cuadrado esquina superior izquierda
+  //rect(0,400,100,100);//cuadrado esquina inferior izquierda
+  //rect(400,0,100,100);// cuadrado esquina superior derecha
+  //rect(400,400,100,100);// cuadrado esquina inferior derecha
+   
+
+}
