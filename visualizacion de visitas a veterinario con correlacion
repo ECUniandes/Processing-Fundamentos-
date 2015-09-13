@@ -1,0 +1,60 @@
+String mes[] = {"enero","febrero","marzo",
+                "abril","mayo", "junio",
+                "Julio", "agosto","septiembre",
+                "octubre", "noviembre", "diciembre"};
+
+int valores[]={  2, 0, 3, 
+                 0, 0, 5, 
+                 3, 2, 0,
+                 4, 1, 1};
+
+int fiestasfamilia[]={  1, 0, 5, 
+                         2, 3, 6, 
+                         2, 4, 1,
+                         7, 0, 2};
+
+
+
+int escala = 100;
+
+PFont font;
+
+void setup(){
+  size(1100,900);
+  
+  font = loadFont("CenturyGothic-Bold-48.vlw");
+  textFont(font,30);
+  smooth(0);
+}
+
+void draw(){
+  background(255);
+  fill(50);
+  textFont(font,40);
+  text("Visitas al Veterinario por mes VS.",10,50);
+    
+  text("Celebraciones con la Familia",10,100);
+
+  //fill(100);
+  //text("test para visualizar el mes",10,50);
+  //fill(255, 0, 0);
+  //text(mes[1],400,50);
+  line(0,120, 900, 120);
+  
+  
+  for(int x=0;x<12;x=x+1){
+    fill(0);
+    textFont(font,30);/*tamano de la letra mes*/
+    text(mes[x], 10, 180+(60*x));
+    textFont(font,18);/*tamano de la letra valores*/
+    text(valores[x],210+(valores[x]*escala), 172+(60*x));
+    text(fiestasfamilia[x],210+(fiestasfamilia[x]*escala), 190+(60*x));
+    //fill(255-(valores[x]*40)); /* fill con escala de grises*/
+    fill(255,255-(valores[x]*40),0);/* fill de visitas veterinario con escala de grises*/
+    rect(200,160+(60*x),valores[x]*escala, 10);
+    fill(255-(fiestasfamilia[x]*40),200,0); /* fill de fiestas de familia con escala de grises*/
+    rect(200,180+(60*x),fiestasfamilia[x]*escala, 10);
+    ;
+  
+}
+}
